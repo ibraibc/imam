@@ -11,7 +11,7 @@
                     
                 <div class="text-center ">
                     <h3 class="pt-8 text-lg font-semibold uppercase text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary lg:text-xl">
-                        
+                        {{ service.image  }}
                         {{ service.name  }}
                     </h3>
                     <p class="text-gray pt-4 text-sm group-hover:text-white md:text-base">
