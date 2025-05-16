@@ -7,7 +7,7 @@ import { fromJSON } from 'postcss'
 export default defineConfig({
   exports :{
     publicPath: process.env.NODE_ENV === 'production'
-      ? '/my-project/'
+      ? '/imam/'
       : '/'
   },
   base: '/https://ibraibc.github.io/imam/',
