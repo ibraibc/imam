@@ -6,9 +6,10 @@ const router = createRouter({
     history: createWebHistory(import.meta.env.BASEURL),
     routes:[
         {
-            path:"/",
+            path: '/:pathMatch(.*)*',
             name:"home",
             component: HomveView
+            
         },
         {
             path:"/galary",

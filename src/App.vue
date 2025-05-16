@@ -1,4 +1,4 @@
-<template lang="">
+<template lang="" >
         <RouterView />
 </template>
 <script setup>
