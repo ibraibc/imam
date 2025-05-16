@@ -5,7 +5,7 @@ import { fromJSON } from 'postcss'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/imam/',
+  base: '/https://ibraibc.github.io/imam/',
   plugins: [vue()],
   resolve: {
     alias:{
