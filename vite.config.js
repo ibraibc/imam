@@ -6,7 +6,7 @@ import { fromJSON } from 'postcss'
 // https://vite.dev/config/
 export default defineConfig({
 
-  publicPath: '/imam/',
+  //publicPath: '/imam/',
   base: '/imam/dist',
   plugins: [vue()],
   resolve: {
