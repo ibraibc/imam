@@ -5,6 +5,7 @@ import { fromJSON } from 'postcss'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/kit/',
   plugins: [vue()],
   resolve: {
     alias:{
