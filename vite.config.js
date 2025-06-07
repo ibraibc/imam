@@ -7,7 +7,7 @@ import { fromJSON } from 'postcss'
 export default defineConfig({
 
   //publicPath: '/imam/',
-  base: '/imam/dist',
+  base: '/dist/',
   plugins: [vue()],
   resolve: {
     alias:{
