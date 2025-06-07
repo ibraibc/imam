@@ -1,0 +1,1 @@
+import{o,c as s,a as e}from"./index-B-gdMC9F.js";const a={class:""},c={class:""},l=["src"],g={__name:"WorkImage",setup(r){const t=()=>(console.log(localStorage.getItem("imageId")),localStorage.getItem("imageId"));return(n,_)=>(o(),s("section",null,[e("div",a,[e("div",c,[e("img",{src:t(),alt:"",class:""},null,8,l)])])]))}};export{g as default};
